@@ -1,182 +1,24 @@
 {
-    "name": "VIHANA MD",
-    "description": "whatsapp md bot build with nodejs",
-    "repository": "https://github.com/vihangayt0/VihangaBot-MD-V2",
-    "logo": "https://telegra.ph/file/88d6fdeff08bbc4945901.jpg",
-    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-    "env": {
-  
-"WELCOME_AND_GOODBYE" :{
-    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
-    "required" : true,
-  "value" : "true"
+  "name": " Doro's Bot",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/darkalphaxteam/Cyber-X-Beta-Release",
+  "logo": "https://telegra.ph/file/71c859102f3625d06204b.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
     },
-  
-        "AUTO_BIO" :{
-    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
-    "required" : true,
-  "value" : "true"
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
-                "INBOXBLOCK" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-        
-                        "ANTIBAD" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-   
-                                "ANTIVIEWONCE" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-       
-                                        "ANTILINK" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-        
-"GROUP_ONLY_MSG" :{
-    "description" : "TYPE ONLY GROUP MSG",
-    "required" : true,
-  "value" : "*Sorry... Bot Is Only Work In Group*\n\n*https://chat.whatsapp.com/GJ9bAPxYpktAnqbXVsnRuf*"
-    },
-        
-        "WELCOME_MSG" :{
-    "description" : "TYPE WELCOME MSG",
-    "required" : true,
-  "value" : "*HELLO WELCOME TO OUR GROUP*"
-    },
-  
-                "BYE_MSG" :{
-    "description" : "TYPE BYE MSG",
-    "required" : true,
-  "value" : "*BYE BRO*"
-    },
-        
-        "ALIVE_MSG" :{
-    "description" : "TYPE ALIVE MSG",
-    "required" : true,
-  "value" : "*IM ALIVE NOW*"
-    },
-        
-"CALL_BLOCK" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-      
-"AUTO_BLOCK212" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-      
-"onlygroup" :{
-    "description" : "IF YOU NEED TO ON THIS TYPE : true",
-    "required" : true,
-  "value" : "false"
-    },
-    
-"AUTO_REACT" :{
-    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
-    "required" : true,
-  "value" : "true"
-    },
-      
-"OWNER_REACT_EMOJI" :{
-    "description" : "TYPE ANY EMOJI TO OWNER REACT",
-    "required" : true,
-  "value" : "🧑"
-    },
-      
-"REACT_NUMBER" :{
-    "description" : "TYPE OWNER NUMBER TO OWNER REACT",
-    "required" : true,
-  "value" : "947634278433"
-    },
-      
-"OWNER_NUMBER" :{
-    "description" : "TYPE OWNER NUMBER",
-    "required" : true,
-  "value" : "947634278433"
-    },
-      
-"OWNER_NUMBER2" :{
-    "description" : "TYPE ANY NUMBER",
-    "required" : true,
-  "value" : "947634278433"
-    },
-    
-"BOT_NAME" :{
-    "description" : "TYPE BOT NAME",
-    "required" : true,
-  "value" : "𝐕𝐈𝐇𝐀𝐍𝐆𝐀 𝐌𝐃"
-    },
-      
-"OWNER_NAME" :{
-    "description" : "TYPE OWNER NAME",
-    "required" : true,
-  "value" : "ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ"
-    },
-      
-"GROUP_LINK" :{
-    "description" : "TYPE GROUP LINK",
-    "required" : true,
-  "value" : "https://chat.whatsapp.com/GJ9bAPxYpktAnqbXVsnRuf"
-},
-      
-  "GROUP_LINK2" :{
-    "description" : "TYPE GROUP LINK 2",
-    "required" : true,
-  "value" : "https://chat.whatsapp.com/GJ9bAPxYpktAnqbXVsnRuf"
-},
-    
-"PACK_NAME" :{
-    "description" : "TYPE ANY NAME",
-    "required" : true,
-  "value" : "STICKER BY VIHANGA MD"
-},
-  
-"CAP_NAME" :{
-    "description" : "TYPE ANY NAME",
-    "required" : true,
-  "value" : "*BY VIHANGA MD*"
-},
-    
-"IMG_URL" :{
-    "description" : "UPLOAD YOURE PHOTO TO IMGBB AND TYPE URL",
-    "required" : true,
-  "value" : "https://telegra.ph/file/88d6fdeff08bbc4945901.jpg"
-},
-  
-  "YT_URL" :{
-    "description" : "IF U HAVE YT CHANNEL TYPE URL",
-    "required" : true,
-    "value" :"https://youtu.be/Z9rIR0Vopb8"
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
-    },
-  
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-      },
-      {
-        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-      }
-    ],
-     "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
-          }
-      }
-  }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
