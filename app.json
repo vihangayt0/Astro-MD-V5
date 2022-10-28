@@ -20,7 +20,7 @@
                 "INBOXBLOCK" :{
     "description" : "IF YOU NEED TO ON THIS TYPE : true",
     "required" : true,
-  "value" : "false"
+  "value" : "true"
     },
         
                         "ANTIBAD" :{
@@ -62,7 +62,7 @@
         "ALIVE_MSG" :{
     "description" : "TYPE ALIVE MSG",
     "required" : true,
-  "value" : "*ꪜ ꫀ ꪦ 𝑜 ꪔ 🐍 IS ALIVE*"
+  "value" : "*Malik IS ALIVE*"
     },
         
 "CALL_BLOCK" :{
@@ -116,13 +116,13 @@
 "BOT_NAME" :{
     "description" : "TYPE BOT NAME",
     "required" : true,
-  "value" : "ꪜ ꫀ ꪦ 𝑜 ꪔ 🐍"
+  "value" : " [ * malik * ]"
     },
       
 "OWNER_NAME" :{
     "description" : "TYPE OWNER NAME",
     "required" : true,
-  "value" : "ꪜ ꫀ ꪦ 𝑜 ꪔ 🐍"
+  "value" : "[ *malik * ]"
     },
       
 "GROUP_LINK" :{
@@ -140,13 +140,13 @@
 "PACK_NAME" :{
     "description" : "TYPE ANY NAME",
     "required" : true,
-  "value" : "STICKER BY ꪜ ꫀ ꪦ 𝑜 ꪔ 🐍"
+  "value" : "STICKER BY Malik"
 },
   
 "CAP_NAME" :{
     "description" : "TYPE ANY NAME",
     "required" : true,
-  "value" : "BY ꪜ ꫀ ꪦ 𝑜 ꪔ 🐍"
+  "value" : "BY malik"
 },
     
 "IMG_URL" :{
