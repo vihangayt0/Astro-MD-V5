@@ -15,12 +15,12 @@
         "AUTO_BIO" :{
     "description" : "IF YOU NEED TO OFF THIS TYPE : false",
     "required" : true,
-  "value" : "false"
+  "value" : "true"
     },
                 "INBOXBLOCK" :{
     "description" : "IF YOU NEED TO ON THIS TYPE : true",
     "required" : true,
-  "value" : "true"
+  "value" : "false"
     },
         
                         "ANTIBAD" :{
@@ -44,7 +44,7 @@
 "GROUP_ONLY_MSG" :{
     "description" : "TYPE ONLY GROUP MSG",
     "required" : true,
-  "value" : "*Kumamako... Bot Is Only Work In Group*\n\n*https://chat.whatsapp.com/DDAtPMA4zyCAL6GzlL6d90*"
+  "value" : "*Bot Is Only Work In Group*\n\n*https://chat.whatsapp.com/DDAtPMA4zyCAL6GzlL6d90*"
     },
         
         "WELCOME_MSG" :{
@@ -62,7 +62,7 @@
         "ALIVE_MSG" :{
     "description" : "TYPE ALIVE MSG",
     "required" : true,
-  "value" : "*Malik IS ALIVE*"
+  "value" : "*[Malik] IS ALIVE*"
     },
         
 "CALL_BLOCK" :{
@@ -92,13 +92,13 @@
 "OWNER_REACT_EMOJI" :{
     "description" : "TYPE ANY EMOJI TO OWNER REACT",
     "required" : false,
-  "value" : "🐍"
+  "value" : "💖"
     },
       
 "REACT_NUMBER" :{
     "description" : "TYPE OWNER NUMBER TO OWNER REACT",
     "required" : true,
-  "value" : "254711107992"
+  "value" : "254735306047"
     },
       
 "OWNER_NUMBER" :{
@@ -116,13 +116,13 @@
 "BOT_NAME" :{
     "description" : "TYPE BOT NAME",
     "required" : true,
-  "value" : " [ * malik * ]"
+  "value" : " [malik]"
     },
       
 "OWNER_NAME" :{
     "description" : "TYPE OWNER NAME",
     "required" : true,
-  "value" : "[ *malik * ]"
+  "value" : "[malik]"
     },
       
 "GROUP_LINK" :{
@@ -140,13 +140,13 @@
 "PACK_NAME" :{
     "description" : "TYPE ANY NAME",
     "required" : true,
-  "value" : "STICKER BY Malik"
+  "value" : "[malik]"
 },
   
 "CAP_NAME" :{
     "description" : "TYPE ANY NAME",
     "required" : true,
-  "value" : "BY malik"
+  "value" : "BY [malik]"
 },
     
 "IMG_URL" :{
