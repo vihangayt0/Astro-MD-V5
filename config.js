@@ -16,7 +16,7 @@ global.website = 'https://github.com/vihangayt0/Astro-MD-V5'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/vihangayt0/server-/main/Astroboy.jpg'
 module.exports = {
   ntilink: 'chat.whatsapp.com',
-  botname: process.env.BOT_NAME || 'Astro-MD',
+  botname: process.env.BOT_NAME || 'dark na',
   footer: process.env.FOOTER || 'Astro-MD',
   ANTI_BAD: process.env.ANTI_BAD || 'false',
   rmbg: process.env.REMOVEBG_API || 'AH5BTMLtcC1PLipDQXessTFk',
